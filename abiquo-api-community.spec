@@ -2,7 +2,7 @@
 
 Name:     abiquo-api-community
 Version: 1.7
-Release:  2%{?dist}%{?buildstamp}
+Release:  3%{?dist}%{?buildstamp}
 Summary:  Abiquo API Component
 Group:    Development/System 
 License:  Multiple 
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{abiquo_basedir}/tomcat/webapps/api
 
 %changelog
+* Mon Feb 14 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-3
+- updated release string
+
 * Mon Feb 07 2011 Sergio Rubio <rubiojr@frameos.org> - 1.7-2
 - rebuilt
 
